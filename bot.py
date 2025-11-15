@@ -15,7 +15,7 @@ load_dotenv()
 # Настройки
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
-CHECK_URL = "https://www.fansale.de/tickets/all/radiohead/520"
+CHECK_URL = "https://www.fansale.de/events/new"
 CHECK_INTERVAL = int(os.getenv('CHECK_INTERVAL', '30'))  # секунды
 
 # Настройка логирования
